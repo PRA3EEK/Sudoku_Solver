@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+<body>
+    <h1 class="head">Sudoku Solver :)
+    </h1>
+    
+    <div id="matrix">
+        <div>
+            <div><input type="text" maxlength="1" id="b1"></div>
+            <div><input type="text" maxlength="1" id="b2"></div>
+            <div><input type="text" maxlength="1" id="b3"></div>
+            <div><input type="text" maxlength="1" id="b4"></div>
+            <div><input type="text" maxlength="1" id="b5"></div>
+            <div><input type="text" maxlength="1" id="b6"></div>
+            <div><input type="text" maxlength="1" id="b7"></div>
+            <div><input type="text" maxlength="1" id="b8"></div>
+            <div><input type="text" maxlength="1" id="b9"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b10"></div>
+            <div><input type="text" maxlength="1" id="b11"></div>
+            <div><input type="text" maxlength="1" id="b12"></div>
+            <div><input type="text" maxlength="1" id="b13"></div>
+            <div><input type="text" maxlength="1" id="b14"></div>
+            <div><input type="text" maxlength="1" id="b15"></div>
+            <div><input type="text" maxlength="1" id="b16"></div>
+            <div><input type="text" maxlength="1" id="b17"></div>
+            <div><input type="text" maxlength="1" id="b18"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b19"></div>
+            <div><input type="text" maxlength="1" id="b20"></div>
+            <div><input type="text" maxlength="1" id="b21"></div>
+            <div><input type="text" maxlength="1" id="b22"></div>
+            <div><input type="text" maxlength="1" id="b23"></div>
+            <div><input type="text" maxlength="1" id="b24"></div>
+            <div><input type="text" maxlength="1" id="b25"></div>
+            <div><input type="text" maxlength="1" id="b26"></div>
+            <div><input type="text" maxlength="1" id="b27"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b28"></div>
+            <div><input type="text" maxlength="1" id="b29"></div>
+            <div><input type="text" maxlength="1" id="b30"></div>
+            <div><input type="text" maxlength="1" id="b31"></div>
+            <div><input type="text" maxlength="1" id="b32"></div>
+            <div><input type="text" maxlength="1" id="b33"></div>
+            <div><input type="text" maxlength="1" id="b34"></div>
+            <div><input type="text" maxlength="1" id="b35"></div>
+            <div><input type="text" maxlength="1" id="b36"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b37"></div>
+            <div><input type="text" maxlength="1" id="b38"></div>
+            <div><input type="text" maxlength="1" id="b39"></div>
+            <div><input type="text" maxlength="1" id="b40"></div>
+            <div><input type="text" maxlength="1" id="b41"></div>
+            <div><input type="text" maxlength="1" id="b42"></div>
+            <div><input type="text" maxlength="1" id="b43"></div>
+            <div><input type="text" maxlength="1" id="b44"></div>
+            <div><input type="text" maxlength="1" id="b45"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b46"></div>
+            <div><input type="text" maxlength="1" id="b47"></div>
+            <div><input type="text" maxlength="1" id="b48"></div>
+            <div><input type="text" maxlength="1" id="b49"></div>
+            <div><input type="text" maxlength="1" id="b50"></div>
+            <div><input type="text" maxlength="1" id="b51"></div>
+            <div><input type="text" maxlength="1" id="b52"></div>
+            <div><input type="text" maxlength="1" id="b53"></div>
+            <div><input type="text" maxlength="1" id="b54"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b55"></div>
+            <div><input type="text" maxlength="1" id="b56"></div>
+            <div><input type="text" maxlength="1" id="b57"></div>
+            <div><input type="text" maxlength="1" id="b58"></div>
+            <div><input type="text" maxlength="1" id="b59"></div>
+            <div><input type="text" maxlength="1" id="b60"></div>
+            <div><input type="text" maxlength="1" id="b61"></div>
+            <div><input type="text" maxlength="1" id="b62"></div>
+            <div><input type="text" maxlength="1" id="b63"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b64"></div>
+            <div><input type="text" maxlength="1" id="b65"></div>
+            <div><input type="text" maxlength="1" id="b66"></div>
+            <div><input type="text" maxlength="1" id="b67"></div>
+            <div><input type="text" maxlength="1" id="b68"></div>
+            <div><input type="text" maxlength="1" id="b69"></div>
+            <div><input type="text" maxlength="1" id="b70"></div>
+            <div><input type="text" maxlength="1" id="b71"></div>
+            <div><input type="text" maxlength="1" id="b72"></div>
+        </div>
+        <div>
+            <div><input type="text" maxlength="1" id="b73"></div>
+            <div><input type="text" maxlength="1" id="b74"></div>
+            <div><input type="text" maxlength="1" id="b75"></div>
+            <div><input type="text" maxlength="1" id="b76"></div>
+            <div><input type="text" maxlength="1" id="b77"></div>
+            <div><input type="text" maxlength="1" id="b78"></div>
+            <div><input type="text" maxlength="1" id="b79"></div>
+            <div><input type="text" maxlength="1" id="b80"></div>
+            <div><input type="text" maxlength="1" id="b81"></div>
+        </div>
+    </div>
+    <div class="btns">
+        <button id="solve"> 
+            solve
+            </button>
+            <button id="reset">
+                reset
+            </button>
+    </div>
+    <div>
+        <p id="msg"></p>
+    </div>
+    <!-- <input type="text" id="test"> -->
+
+   
+
+</body>
+
+</html>
+<script
+src="index.js"></script>
+

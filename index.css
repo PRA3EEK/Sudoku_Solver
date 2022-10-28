@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: #1a1a1d;
+}
+
+#matrix{
+    /* border: 1px solid black; */
+    /* height: 500px; */
+    
+    width: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px auto ;
+   
+}
+#matrix>div{
+
+    border: 2px solid #c3073f;
+    border-radius: 5px;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+   justify-content: space-around;
+}
+#matrix>div>div{
+    /* border: 2px solid black; */
+    
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+  
+  
+}
+#matrix>div>div>input{
+    border-radius: 3px;
+    width: 80%;
+   border: 1px dotted #c3073f;
+   height: 80%;
+   text-align: center;
+   font-size: 20px;
+   color: #5BCDEC;
+}
+.btns{
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+   margin-top: 20px;
+}
+.btns>button{
+    width: 9%;
+    height: 7%;
+   font-size: 20px;
+   letter-spacing: 5px;
+   color: #1a1a1d;
+   cursor: pointer;
+   border: none;
+   /* font-family: 'Fuzzy Bubbles', cursive; */
+   border-radius: 5px ;
+   background: #c3073f;
+}
+.head{
+    text-align: center;
+   color: #c3073f;
+}
+#msg{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    color: #c3073f;
+}
