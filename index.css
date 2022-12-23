@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Fuzzy Bubbles', cursive;
     background-color: #1a1a1d;
+  
+}
+body{
+    margin: 120px 0;
 }
 
 #matrix{
